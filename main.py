@@ -1,4 +1,3 @@
-//Before running this code, make sure you have Flask installed. If not, run the command pip install Flask
 
 from flask import Flask, render_template
 app = Flask(__name__)
