@@ -9,4 +9,8 @@ def hello_world():
 def admin_page():
   return 'Hello Admin'
 
-app.run(host='0.0.0.0', port=8080)
+@app.route('/login.portal')
+def login_portal():
+  return 'This is the login Portal')
+
+app.run(host='0.0.0.0', port=8080, Debug=True)
