@@ -11,6 +11,6 @@ def admin_page():
 
 @app.route('/login.portal')
 def login_portal():
-  return 'This is the login Portal')
+  return 'This is the login Portal'
 
 app.run(host='0.0.0.0', port=8080, Debug=True)
