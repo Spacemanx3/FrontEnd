@@ -13,4 +13,4 @@ def admin_page():
 def login_portal():
   return 'This is the login Portal'
 
-app.run(host='0.0.0.0', port=8080, Debug=True)
+app.run(host='0.0.0.0', port=8080)
